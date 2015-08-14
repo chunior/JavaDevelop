@@ -9,10 +9,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
   <modules>
-    <module>work_bakend-web</module>
-    <module>work_bakend_client-jar</module>
     <module>work_backend_sql-ejb</module>
     <module>work_backend-ejb</module>
+    <module>work_backend-web</module>
+    <module>work_backend_client-jar</module>
   </modules>
     <name>work_backend</name>
 </project>

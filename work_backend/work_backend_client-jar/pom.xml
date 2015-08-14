@@ -7,10 +7,11 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>com.work</groupId>
-    <artifactId>work_bakend_client-jar</artifactId>
+    <artifactId>work_backend_client-jar</artifactId>
     <packaging>jar</packaging>
     <properties>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
+    <name>work_backend_client-jar</name>
 </project>
