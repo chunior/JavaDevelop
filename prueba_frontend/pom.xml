@@ -9,7 +9,6 @@
   <modules>
     <module>prueba_frontend-ear</module>
     <module>prueba_frontend-ejb</module>
-    <module>../prueba_frontend-web/prueba_frontend-web</module>
     <module>prueba_frontend-web/prueba_frontend-web</module>
   </modules>
     <dependencies>
