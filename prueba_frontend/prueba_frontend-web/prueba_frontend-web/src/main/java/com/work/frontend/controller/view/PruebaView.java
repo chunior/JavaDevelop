@@ -7,8 +7,8 @@ package com.work.frontend.controller.view;
 
 import com.work.backend.dto.UserDTO;
 import java.io.Serializable;
-import javax.annotation.ManagedBean;
 import javax.annotation.PostConstruct;
+import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 
 /**
