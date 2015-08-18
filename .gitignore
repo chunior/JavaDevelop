@@ -4,6 +4,6 @@ proyecto_prueba/prueba_backend/prueba_backend-ear/target/
 proyecto_prueba/prueba_backend/prueba_backend-ejb/target/
 proyecto_prueba/prueba_backend/prueba_backend_client-jar/target/
 proyecto_prueba/prueba_base_backend/target/
-/work_frontend/work_frontend-ear/target/
-/work_frontend/work_frontend-web/target/
-/work_frontend/work_frontend-ejb/target/
+prueba_frontend/prueba_frontend-ear/target/
+prueba_frontend/prueba_frontend-ejb/target/
+prueba_frontend/prueba_frontend-web/target/
