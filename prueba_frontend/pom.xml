@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mycompany</groupId>
+  <artifactId>prueba_frontend</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>prueba_frontend</name>
+  <modules>
+    <module>prueba_frontend-ear</module>
+    <module>prueba_frontend-ejb</module>
+    <module>../prueba_frontend-web/prueba_frontend-web</module>
+    <module>prueba_frontend-web/prueba_frontend-web</module>
+  </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.work</groupId>
+            <artifactId>prueba_backend_client-jar</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+</project>
