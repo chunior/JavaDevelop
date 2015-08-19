@@ -39,7 +39,15 @@
                 </p:layoutUnit>
 
                 <p:layoutUnit position="center">
-                    <p:inputText></p:inputText>
+<!--                                        <p:inputText value="{pruebaViewBean.userDTO.name}" ></p:inputText>
+                                        <p:inputText value="{pruebaViewBean.userDTO.password}" ></p:inputText>
+                                        <p:commandButton value="{pruebaViewBean.create()}" />-->
+                    <p:outputLabel value="hola" ></p:outputLabel>
+                    <p:dataTable value="#{pruebaViewBean.userDTOs}" var="user">
+                        <p:column>
+                            <p:outputLabel value="#{user.name}" />
+                        </p:column>
+                    </p:dataTable>
                 </p:layoutUnit>
 
             </p:layout>
