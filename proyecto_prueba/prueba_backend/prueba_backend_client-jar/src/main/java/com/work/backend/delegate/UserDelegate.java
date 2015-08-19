@@ -1,3 +1,5 @@
+package com.work.backend.delegate;
+
 
 import com.work.backend.dto.UserDTO;
 import com.work.backend.facade.UserFacadeRemote;
